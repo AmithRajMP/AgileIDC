@@ -952,7 +952,7 @@ ul.nostyle i {
 }
 
 #career {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .jopwrap {position:relative; float:left; margin-bottom:10px; width:100%}
@@ -1207,4 +1207,23 @@ table tr td {padding: 5px; vertical-align:top;}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+.res-mobile{
+  width: 737px;
+}
+
+
+ @media only screen and (max-width:480px){
+.res-mobile{
+  width: 350px;
+}
+    }
+
+
+    .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
