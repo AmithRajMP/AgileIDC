@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -68,7 +67,7 @@
 	</head>
 	<body>
 		
-	<header id="fh5co-header" role="banner">
+	<header class="header" id="fh5co-header" role="banner">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header"> 
@@ -79,18 +78,17 @@
 				<div id="fh5co-navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="scroll active"><a href="index.html"><span>Home <span class="border"></span></span></a></li>
-						<li><a class="smoothscroll" href="#values"><span>Our Values <span class="border"></span></span></a></li>
-						<li><a class="smoothscroll" href="#products"><span>Products <span class="border"></span></span></a></li>
-						<li><a class="smoothscroll" href="#services"><span>Services <span class="border"></span></span></a></li>
-						<li><a class="smoothscroll" href="#career"><span>Careers <span class="border"></span></span></a></li>
-						<li><a class="smoothscroll" href="#get-in-touch"><span>Contact <span class="border"></span></span></a></li>
+						<li><a class="scroll" href="#products"><span>Products <span class="border"></span></span></a></li>
+						<li><a class="scroll" href="#services"><span>Services <span class="border"></span></span></a></li>
+						<li><a class="scroll" href="#values"><span>Our Values <span class="border"></span></span></a></li>
+						<li><a class="scroll" href="#career"><span>Careers <span class="border"></span></span></a></li>
+						<li><a class="scroll" href="#get-in-touch"><span>Contact <span class="border"></span></span></a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
-	<!-- END .header -->
-
+	<!--Carousel-->
 	<div class="fh5co-slider">
 		<div class="owl-carousel owl-carousel-fullwidth">
 		    <div class="item" style="background-image:url(images/slide_1.jpg)">
@@ -170,33 +168,11 @@
 		    </div>
 		</div>
 	</div>	
-
-	<section id="values">
-	<div id="fh5co-main">
-		<!-- Values -->
-
-		<div id="fh5co-features">
-			<div class="container">
-				<div class="section-header">
-					<div class="col-md-8 col-md-offset-2">
-						<h2 class="section-title text-center wow fadeInDown">Our Values</h2>
-						<img src="images/rsz_values.png">
-						<p class="fh5co-section-sub-lead" align="center"><b>Integrity</b>   is   <b>Delivering</b></br>
-						What We Do, </br>
-						What We Say & </br>
-						What We Say We Do </br>
-						Leading to <b>Customer Satisfaction</b></p>
-						<img src="images/rsz_values1.png">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-
+<!--Carousel ends-->
+	<!--products-->
 	<section id="products">
 	<div class="container">
-            <div class="section-header">
+            <div class="section-header"></br></br>
                 <h2 class="section-title text-center wow fadeInDown">Our Products</h2>
             </div>
 
@@ -312,8 +288,8 @@
 
         </div>
     </section>
-		<!-- Products -->
-
+		<!-- Products ends -->
+		<!--Services-->
 	 <section id="services">
         <div class="container">
             <div class="section-header">
@@ -425,8 +401,29 @@
             </div>
         </div>
     </section>
-		<!-- Services -->
-
+		<!-- Services ends-->
+		<!-- Values -->
+	<section id="values">
+	<div id="fh5co-main">
+		<div id="fh5co-features">
+			<div class="container">
+				<div class="section-header">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="section-title text-center wow fadeInDown">Our Values</h2>
+						<img class="res-mobile" src="images/final.jpg">
+						<p class="fh5co-section-sub-lead" align="center"><b>Integrity</b>   is   <b>Delivering</b></br>
+						What We Do, </br>
+						What We Say & </br>
+						What We Say We Do </br>
+						Leading to <b>Customer Satisfaction</b></p>
+						<img class="res-mobile" src="images/rsz_values1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<!--Values ends-->
 	<section id="testimonial">
         <div class="container">
             <div class="row">
@@ -483,14 +480,14 @@
 
 
 
-		<div class="fh5co-bg-section" style="background-image: url(images/career.jpg); background-attachment: fixed;">
+		<div class="fh5co-bg-section" ><!-- style="background-image: url(images/career.jpg); background-attachment: fixed;" -->
 			<div class="fh5co-overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="fh5co-hero-wrap">
 							<div class="fh5co-hero-intro text-center">
-								<h1 class="fh5co-lead">Love to work with us?</h1>
+								<h1 class="fh5co-lead" style="color: #000">Love to work with us?</h1>
 								<h3>We're thinking how tech changes lives. If You Do things RIGHT at the FIRST TIME, then Agiles is the PLACE for you...</h3> 
 								<h3>If you like new ideas, challenges, “re-inventing things”, and working with a small but absurdly talented group of people in a learning-friendly, rapidly evolving environment, we want to hear from you. </h3>
 								<h3>Feel free to drop us a mail. We will get back to you if we're impressed.</h3>
@@ -605,8 +602,7 @@ We’d love you to shop around and compare us to the competition.</br> Once you�
             </div>
         </div>
     </section><!--/#bottom-->
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnJ6SSlRKqqB9obGRx0GhXjejmdu1Kah70rfZRAAauziFdDw/viewform?embedded=true" width="1350" height="600" frameborder="0" marginheight="0" marginwidth="0" style="float:middle">Loading...</iframe>
-	<footer id="footer">
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -626,6 +622,8 @@ We’d love you to shop around and compare us to the competition.</br> Once you�
             </div>
         </div>
     </footer><!--/#footer-->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnJ6SSlRKqqB9obGRx0GhXjejmdu1Kah70rfZRAAauziFdDw/viewform?embedded=true" width="100%" height="2200" frameborder="0" marginheight="0" marginwidth="0" >Loading...</iframe>
+	
 	<!-- Modal -->
   <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog">
@@ -810,6 +808,22 @@ It is highly scalable and easily maps to various industries – Manufacturing, R
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	<script src="js/smoothscroll.js"></script>
+	<script src="js/mousescroll.js"></script>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("fh5co-header");
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+	    header.classList.add("sticky");
+	  } else {
+	    header.classList.remove("sticky");
+	  }
+	}
+	</script>
 
 	
 	</body>
