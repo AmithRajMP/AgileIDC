@@ -328,7 +328,19 @@ ul.nostyle i {
   margin-top: 80px;
 }
 #services {
-  padding: 40px 0 75px;
+  padding: 60px 0 75px;
+}
+#products{
+  padding: 60px 0 75px;
+}
+#values{
+  padding: 60px 0 75px;
+}
+#career{
+  padding: 60px 0 75px;
+}
+#get-in-touch{
+  padding: 80px 0 75px;
 }
 .media.service-box {
   margin: 25px 0;
@@ -785,7 +797,6 @@ ul.nostyle i {
   color: #fff;
 }
 #get-in-touch {
-  padding: 20px 0 0px;
   background: #2e2e2e;
   color: #fff;
 }
@@ -954,10 +965,6 @@ ul.nostyle i {
 }
 .nav-tabs {
      background-color: #f2f2f2;
-}
-
-#career {
-    padding-top: 50px;
 }
 
 .jopwrap {position:relative; float:left; margin-bottom:10px; width:100%}
