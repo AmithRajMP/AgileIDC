@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $("a").on('click', function(event) {
+  $("li > a.scroll").on('click', function(event) {
     if (this.hash !== "") {
 
       event.preventDefault();
